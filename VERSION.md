@@ -9,6 +9,7 @@
 - 配置 GitHub Pages base path 环境变量支持。
 - 接入 UI copy、六宫内容库、模式规范和掌诀图片资源。
 - 建立小六壬算法、时辰、农历转换 wrapper 与开发版 golden tests 结构。
+- Added Google Search Console verification metadata.
 
 ## 待复核
 
