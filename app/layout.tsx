@@ -47,6 +47,12 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
             </nav>
           </footer>
         </div>
+       <script
+        defer
+        type="module"
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token":"2dbea2f9d14c4157a611c2a309cf2b19"}'
+       />
       </body>
     </html>
   );
