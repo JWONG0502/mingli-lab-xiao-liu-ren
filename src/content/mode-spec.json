@@ -1,0 +1,284 @@
+{
+  "version": "1.0",
+  "designSource": "mingli-lab-xiao-liu-ren-design-v13.svg",
+  "productMode": "english_first_reflection_learning_tool",
+  "language": {
+    "default": "en",
+    "supportsToggle": false,
+    "termFormatResult": "{english}\\n{chinese} · {pinyin}",
+    "termFormatArticle": "{chinese} / {pinyin} / {english}"
+  },
+  "routes": [
+    "/",
+    "/start-here",
+    "/tool",
+    "/result",
+    "/method",
+    "/six-palaces",
+    "/six-palaces/:palaceId",
+    "/learn",
+    "/about",
+    "/contact",
+    "/privacy"
+  ],
+  "reflectionContexts": [
+    "general_reflection",
+    "work_study",
+    "waiting_for_news",
+    "relationship",
+    "travel_movement",
+    "personal_decision"
+  ],
+  "disallowedContexts": [
+    "health",
+    "investment",
+    "legal",
+    "pregnancy",
+    "gambling",
+    "emergency"
+  ],
+  "palaceOrder": [
+    "da_an",
+    "liu_lian",
+    "su_xi",
+    "chi_kou",
+    "xiao_ji",
+    "kong_wang"
+  ],
+  "chineseHours": [
+    {
+      "id": "zi",
+      "label": "Zi / 子时",
+      "number": 1,
+      "ranges": [
+        "23:00-23:59",
+        "00:00-00:59"
+      ]
+    },
+    {
+      "id": "chou",
+      "label": "Chou / 丑时",
+      "number": 2,
+      "ranges": [
+        "01:00-02:59"
+      ]
+    },
+    {
+      "id": "yin",
+      "label": "Yin / 寅时",
+      "number": 3,
+      "ranges": [
+        "03:00-04:59"
+      ]
+    },
+    {
+      "id": "mao",
+      "label": "Mao / 卯时",
+      "number": 4,
+      "ranges": [
+        "05:00-06:59"
+      ]
+    },
+    {
+      "id": "chen",
+      "label": "Chen / 辰时",
+      "number": 5,
+      "ranges": [
+        "07:00-08:59"
+      ]
+    },
+    {
+      "id": "si",
+      "label": "Si / 巳时",
+      "number": 6,
+      "ranges": [
+        "09:00-10:59"
+      ]
+    },
+    {
+      "id": "wu",
+      "label": "Wu / 午时",
+      "number": 7,
+      "ranges": [
+        "11:00-12:59"
+      ]
+    },
+    {
+      "id": "wei",
+      "label": "Wei / 未时",
+      "number": 8,
+      "ranges": [
+        "13:00-14:59"
+      ]
+    },
+    {
+      "id": "shen",
+      "label": "Shen / 申时",
+      "number": 9,
+      "ranges": [
+        "15:00-16:59"
+      ]
+    },
+    {
+      "id": "you",
+      "label": "You / 酉时",
+      "number": 10,
+      "ranges": [
+        "17:00-18:59"
+      ]
+    },
+    {
+      "id": "xu",
+      "label": "Xu / 戌时",
+      "number": 11,
+      "ranges": [
+        "19:00-20:59"
+      ]
+    },
+    {
+      "id": "hai",
+      "label": "Hai / 亥时",
+      "number": 12,
+      "ranges": [
+        "21:00-22:59"
+      ]
+    }
+  ],
+  "algorithm": {
+    "name": "Xiao Liu Ren lunar month-day-hour method",
+    "countingIncludesStartingPalace": true,
+    "monthIndexFormula": "(lunarMonth - 1) % 6",
+    "dayIndexFormula": "(monthIndex + lunarDay - 1) % 6",
+    "hourIndexFormula": "(dayIndex + hourNumber - 1) % 6",
+    "finalIndexFormula": "hourIndex",
+    "checkFormula": "(lunarMonth + lunarDay + hourNumber - 3) % 6",
+    "leapMonthRule": "Use the same lunar month number. Do not shift or offset leap months.",
+    "ziHourRule": "23:00-23:59 is treated as Zi hour within the selected civil date flow. Do not automatically move to the next civil date."
+  },
+  "stateMachine": {
+    "states": [
+      "tool_empty",
+      "tool_filled",
+      "casting",
+      "result_default",
+      "result_how_cast_expanded",
+      "error"
+    ],
+    "transitions": [
+      {
+        "from": "tool_empty",
+        "to": "tool_filled",
+        "event": "input_changed"
+      },
+      {
+        "from": "tool_filled",
+        "to": "casting",
+        "event": "cast_reflection"
+      },
+      {
+        "from": "casting",
+        "to": "result_default",
+        "event": "animation_complete"
+      },
+      {
+        "from": "casting",
+        "to": "result_default",
+        "event": "skip_animation"
+      },
+      {
+        "from": "result_default",
+        "to": "result_how_cast_expanded",
+        "event": "expand_how_this_was_cast"
+      }
+    ]
+  },
+  "castingAnimation": {
+    "gestureFrameOrder": [
+      "gesture-1-da-an.png",
+      "gesture-2-liu-lian.png",
+      "gesture-3-su-xi.png",
+      "gesture-4-chi-kou.png",
+      "gesture-5-xiao-ji.png",
+      "gesture-6-kong-wang.png"
+    ],
+    "stages": [
+      {
+        "id": "month",
+        "label": "Counting lunar month…",
+        "endLabel": "Month Palace"
+      },
+      {
+        "id": "day",
+        "label": "Counting lunar day…",
+        "endLabel": "Day Palace"
+      },
+      {
+        "id": "hour",
+        "label": "Counting Chinese hour…",
+        "endLabel": "Hour Palace"
+      },
+      {
+        "id": "final",
+        "label": "Final palace reached",
+        "endLabel": "Final Palace"
+      }
+    ],
+    "durationMs": {
+      "recommendedMin": 4000,
+      "recommendedMax": 7000,
+      "hardMax": 10000
+    },
+    "skipEnabled": true,
+    "reducedMotionBehavior": "Skip frame animation and render static calculation steps."
+  },
+  "resultPage": {
+    "defaultOrder": [
+      "final_result",
+      "process",
+      "what_this_may_suggest",
+      "final_palace_meaning",
+      "contextual_reflection",
+      "pay_attention_to",
+      "reflection_questions",
+      "how_this_was_cast_collapsed",
+      "learn_more",
+      "disclaimer"
+    ],
+    "mobileMustInclude": [
+      "pay_attention_to",
+      "how_this_was_cast_collapsed",
+      "learn_more"
+    ],
+    "howThisWasCastDefault": "collapsed"
+  },
+  "privacy": {
+    "reflectionTopic": {
+      "localOnly": true,
+      "storeInLocalStorage": false,
+      "storeInCookies": false,
+      "includeInUrl": false,
+      "includeInAnalytics": false,
+      "includeInAlgorithm": false
+    }
+  },
+  "analytics": {
+    "allowedEvents": [
+      "tool_started",
+      "context_selected",
+      "reading_generated",
+      "final_palace",
+      "process_path",
+      "timezone_selected",
+      "result_page_duration",
+      "learn_more_clicked",
+      "guide_download_clicked",
+      "method_page_opened"
+    ],
+    "forbiddenPayloadFields": [
+      "reflectionTopic",
+      "question",
+      "freeText",
+      "personalDetails"
+    ]
+  }
+}

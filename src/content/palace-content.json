@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "language": "en",
+  "palaces": [
+    {
+      "id": "da_an",
+      "chinese": "大安",
+      "pinyin": "Da An",
+      "english": "Great Peace",
+      "keywords": ["calm", "stability", "safety", "patience", "stillness", "balance", "protection", "settling"],
+      "themes": {
+        "short": "calmness and stability",
+        "process": "steadiness"
+      },
+      "basicMeaning": "Great Peace is traditionally associated with calmness, stability, safety, and a slower pace. It often points to a condition that is not moving dramatically, but may already contain a degree of steadiness or protection. In a reflective reading, Great Peace does not mean that nothing matters or that everything is automatically resolved. It invites the user to notice where stability is present, where patience may be useful, and where maintaining balance may be more appropriate than forcing rapid progress.",
+      "positiveReading": "Great Peace can be read as a reminder that steadiness has value. A situation may not need urgent action to become meaningful. The useful path may involve preserving what is already stable, keeping a clear rhythm, and allowing the matter enough time to settle before drawing strong conclusions.",
+      "caution": "The main caution of Great Peace is passivity or over-comfort. Stability can be helpful, but it can also become avoidance if the user refuses to notice necessary movement. This palace asks for patience, not denial, and calm observation, not careless waiting.",
+      "positions": {
+        "month": "As the Month Palace, Great Peace suggests that the background tone of the matter may be relatively stable, slow, or protected.",
+        "day": "As the Day Palace, Great Peace suggests that the current movement may be settling, slowing down, or becoming more orderly.",
+        "hour": "As the Hour Palace, Great Peace highlights steadiness, patience, and emotional regulation as the immediate focus.",
+        "final": "As the Final Palace, Great Peace emphasizes calmness, patience, and maintaining balance as the main reflective direction."
+      },
+      "contexts": {
+        "general_reflection": "In general reflection, Great Peace invites attention to what is already stable, reliable, or less urgent than it first appeared.",
+        "work_study": "In work or study, Great Peace may point to steady progress, a stable foundation, or a situation that benefits from consistency rather than speed.",
+        "waiting_for_news": "In the context of waiting for news, Great Peace invites attention to whether the situation is becoming more stable, and whether patience may be more useful than repeated checking.",
+        "relationship": "In relationship reflection, Great Peace may point to the value of emotional steadiness, trust, and giving the situation room to breathe.",
+        "travel_movement": "For travel or movement, Great Peace may suggest a slower, steadier approach and attention to preparation and timing.",
+        "personal_decision": "For a personal decision, Great Peace may invite the user to consider whether a steady option is being undervalued."
+      },
+      "attentionPoints": [
+        "Where stability is already present",
+        "Whether impatience is creating unnecessary pressure",
+        "Whether the situation needs time to settle",
+        "Whether a steady next step would be more useful than a dramatic one",
+        "Whether comfort is becoming avoidance",
+        "Whether existing support or structure is being overlooked"
+      ],
+      "reflectionQuestions": [
+        "What part of this situation is already stable?",
+        "Am I trying to rush something that needs time?",
+        "What would a calm and steady next step look like?",
+        "Where might I be adding pressure without improving the situation?",
+        "What support or structure is already available?",
+        "How can I maintain balance while still paying attention?"
+      ],
+      "avoidLanguage": ["Everything will be safe.", "Nothing bad can happen.", "You should wait and do nothing.", "This guarantees peace."]
+    },
+    {
+      "id": "liu_lian",
+      "chinese": "留连",
+      "pinyin": "Liu Lian",
+      "english": "Lingering",
+      "keywords": ["delay", "entanglement", "repetition", "unclear progress", "waiting", "attachment", "slow movement", "unfinished"],
+      "themes": {
+        "short": "delay and repetition",
+        "process": "unfinished movement"
+      },
+      "basicMeaning": "Lingering is traditionally associated with delay, repetition, entanglement, and matters that do not move forward cleanly. It may point to something that remains unresolved, returns repeatedly, or requires more patience than expected. In a reflective reading, Lingering does not simply mean failure. It asks the user to notice where the matter is caught, what remains unfinished, and whether emotional attachment, unclear communication, or repeated patterns are slowing the situation down.",
+      "positiveReading": "Lingering can be useful because it highlights what still needs attention. A delay may reveal missing details, hidden dependencies, or patterns that would otherwise be ignored.",
+      "caution": "The caution of Lingering is getting stuck in loops. Waiting, repeating, or revisiting something can become unproductive if the user keeps circling the same concern without new information or action.",
+      "positions": {
+        "month": "As the Month Palace, Lingering suggests that the background of the matter may involve delay, repetition, or unresolved conditions.",
+        "day": "As the Day Palace, Lingering suggests that the current movement may be slow, circular, or interrupted.",
+        "hour": "As the Hour Palace, Lingering highlights an immediate need to notice delays, attachments, or unfinished details.",
+        "final": "As the Final Palace, Lingering emphasizes unresolved patterns, patience, and careful untangling as the main reflective direction."
+      },
+      "contexts": {
+        "general_reflection": "In general reflection, Lingering invites attention to what keeps repeating or remaining unresolved.",
+        "work_study": "In work or study, Lingering may point to delayed feedback, unfinished tasks, unclear requirements, or repeated revisions.",
+        "waiting_for_news": "When waiting for news, Lingering may point to silence, delay, or repeated checking without new information.",
+        "relationship": "In relationship reflection, Lingering may suggest unresolved feelings, repeated conversations, or patterns that keep returning.",
+        "travel_movement": "For travel or movement, Lingering may invite attention to delays, waiting periods, incomplete arrangements, or plans that require confirmation.",
+        "personal_decision": "For a personal decision, Lingering may suggest that the user is not fully ready to choose, or that the same concern keeps returning for a reason."
+      },
+      "attentionPoints": [
+        "What keeps repeating in this situation",
+        "Whether progress is delayed by missing information",
+        "Whether emotional attachment is making the matter harder to release",
+        "Whether an unfinished detail needs attention",
+        "Whether waiting has become rumination",
+        "Whether forcing closure would ignore something important"
+      ],
+      "reflectionQuestions": [
+        "What part of this situation keeps repeating?",
+        "What remains unfinished or unclear?",
+        "Am I waiting for new information, or circling the same worry?",
+        "What would help untangle this matter?",
+        "Is the delay protecting me from rushing, or keeping me stuck?",
+        "What can I clarify before trying to move forward?"
+      ],
+      "avoidLanguage": ["Nothing will move forward.", "You are trapped.", "This delay is guaranteed.", "The situation is hopeless."]
+    },
+    {
+      "id": "su_xi",
+      "chinese": "速喜",
+      "pinyin": "Su Xi",
+      "english": "Swift Joy",
+      "keywords": ["quick movement", "message", "response", "small joy", "change", "news", "momentum", "timing"],
+      "themes": {
+        "short": "quick movement",
+        "process": "visible movement"
+      },
+      "basicMeaning": "Swift Joy is traditionally associated with quick movement, incoming news, messages, small positive developments, and a faster rhythm. It often points to something that becomes noticeable sooner than expected or brings a lighter emotional tone. In a reflective reading, Swift Joy does not guarantee good news or a perfect outcome. It invites attention to movement, timing, communication, and how the user responds when something begins to shift quickly.",
+      "positiveReading": "Swift Joy can highlight momentum and openness. A situation may contain signs of response, progress, or renewed energy.",
+      "caution": "The caution of Swift Joy is overexcitement or premature conclusions. Quick movement can be encouraging, but speed does not always mean depth, completion, or long-term stability.",
+      "positions": {
+        "month": "As the Month Palace, Swift Joy suggests that the background tone may include movement, communication, or a more active atmosphere.",
+        "day": "As the Day Palace, Swift Joy suggests that the current movement may be becoming faster or more visible.",
+        "hour": "As the Hour Palace, Swift Joy highlights immediate movement, timing, and communication.",
+        "final": "As the Final Palace, Swift Joy emphasizes quick updates, small positive movement, or a lighter turn in the matter as the main reflective focus."
+      },
+      "contexts": {
+        "general_reflection": "In general reflection, Swift Joy invites attention to what is beginning to move, lighten, or respond.",
+        "work_study": "In work or study, Swift Joy may point to feedback, messages, progress, or a task moving faster than expected.",
+        "waiting_for_news": "When waiting for news, Swift Joy may invite attention to quick updates, a response, or small signs of movement.",
+        "relationship": "In relationship reflection, Swift Joy may point to messages, renewed contact, lighter conversation, or emotional movement.",
+        "travel_movement": "For travel or movement, Swift Joy may suggest active timing, quick changes, or movement becoming easier.",
+        "personal_decision": "For a personal decision, Swift Joy may suggest that new information or a small opening could arrive quickly."
+      },
+      "attentionPoints": [
+        "Whether new information is arriving",
+        "Whether a message or response deserves attention",
+        "Whether momentum is increasing",
+        "Whether excitement is leading to premature conclusions",
+        "Whether small positive movement is being overlooked",
+        "Whether the next response should be timely but measured"
+      ],
+      "reflectionQuestions": [
+        "What is beginning to move in this situation?",
+        "What message or update should I pay attention to?",
+        "Am I reading too much into an early sign?",
+        "What would a clear and timely response look like?",
+        "What information still needs to be confirmed?",
+        "How can I welcome movement without rushing?"
+      ],
+      "avoidLanguage": ["You will receive good news.", "A happy outcome is guaranteed.", "This will happen soon.", "Everything is turning positive."]
+    },
+    {
+      "id": "chi_kou",
+      "chinese": "赤口",
+      "pinyin": "Chi Kou",
+      "english": "Red Mouth",
+      "keywords": ["speech", "conflict", "misunderstanding", "reaction", "argument", "friction", "caution", "sharp words"],
+      "themes": {
+        "short": "speech and caution",
+        "process": "careful communication"
+      },
+      "basicMeaning": "Red Mouth is traditionally associated with speech, disagreement, conflict, sharp words, misunderstanding, and emotional reactions. It can point to situations where communication carries more weight than usual, and where a careless response may create friction. In a reflective reading, Red Mouth does not mean disaster or inevitable conflict. It invites the user to pay attention to tone, timing, assumptions, and the way words may shape the situation.",
+      "positiveReading": "Red Mouth can be useful because it reveals where communication needs care. It may help the user notice tension before it escalates, clarify misunderstandings, or choose a more measured response.",
+      "caution": "The caution of Red Mouth is reactive speech. The user may be tempted to answer quickly, defend too strongly, or assume hostile intent.",
+      "positions": {
+        "month": "As the Month Palace, Red Mouth suggests that the background tone may involve tension, disagreement, or sensitive communication.",
+        "day": "As the Day Palace, Red Mouth suggests that current movement may involve conversation, friction, criticism, or misunderstanding.",
+        "hour": "As the Hour Palace, Red Mouth highlights immediate caution around words, tone, and reaction.",
+        "final": "As the Final Palace, Red Mouth emphasizes communication, disagreement, and emotional reactivity as the main reflective focus."
+      },
+      "contexts": {
+        "general_reflection": "In general reflection, Red Mouth invites attention to speech, assumptions, and possible misunderstanding.",
+        "work_study": "In work or study, Red Mouth may point to feedback, criticism, disagreement, unclear instructions, or a tense exchange.",
+        "waiting_for_news": "When waiting for news, Red Mouth may invite attention to how messages are worded, interpreted, or delayed because of tension.",
+        "relationship": "In relationship reflection, Red Mouth may point to sharp words, misunderstanding, emotional defensiveness, or unresolved tension.",
+        "travel_movement": "For travel or movement, Red Mouth may invite attention to instructions, tickets, rules, directions, or communication with others.",
+        "personal_decision": "For a personal decision, Red Mouth may suggest that the user should examine emotional reactions and outside opinions carefully."
+      },
+      "attentionPoints": [
+        "Whether words are being interpreted too quickly",
+        "Whether a conversation needs more care",
+        "Whether emotional reaction is stronger than the facts",
+        "Whether tone may matter as much as content",
+        "Whether assumptions should be checked before replying",
+        "Whether documentation or clarification would help"
+      ],
+      "reflectionQuestions": [
+        "What words or messages are shaping this situation?",
+        "Am I reacting to facts or to tone?",
+        "What assumption should I check before responding?",
+        "Would a slower reply reduce unnecessary friction?",
+        "What needs to be clarified in writing?",
+        "What would a measured response look like?"
+      ],
+      "avoidLanguage": ["A fight will happen.", "Someone will attack you.", "This is a bad omen.", "The relationship or matter is doomed."]
+    },
+    {
+      "id": "xiao_ji",
+      "chinese": "小吉",
+      "pinyin": "Xiao Ji",
+      "english": "Small Fortune",
+      "keywords": ["modest benefit", "small opening", "help", "ease", "support", "gentle progress", "goodwill", "minor success"],
+      "themes": {
+        "short": "modest support",
+        "process": "small useful opening"
+      },
+      "basicMeaning": "Small Fortune is traditionally associated with modest benefit, small openings, helpful conditions, and gentle progress. It often points to something favorable, but not necessarily large, dramatic, or complete. In a reflective reading, Small Fortune invites the user to notice small forms of support, practical opportunities, and improvements that may be easy to miss if the user is only looking for a major breakthrough.",
+      "positiveReading": "Small Fortune can be encouraging because it highlights manageable progress. The matter may contain help, goodwill, a small advantage, or a practical next step.",
+      "caution": "The caution of Small Fortune is exaggeration. A small opening should not be treated as a guaranteed major outcome.",
+      "positions": {
+        "month": "As the Month Palace, Small Fortune suggests that the background tone may contain helpful conditions, modest support, or a generally workable environment.",
+        "day": "As the Day Palace, Small Fortune suggests that current movement may include small progress, practical help, or a minor improvement.",
+        "hour": "As the Hour Palace, Small Fortune highlights the immediate value of small openings, support, or simple practical action.",
+        "final": "As the Final Palace, Small Fortune emphasizes modest benefit, practical support, and small but meaningful progress as the main reflective focus."
+      },
+      "contexts": {
+        "general_reflection": "In general reflection, Small Fortune invites attention to small helpful signs, modest progress, or support that may already be present.",
+        "work_study": "In work or study, Small Fortune may point to useful feedback, small wins, a manageable task, or support from another person.",
+        "waiting_for_news": "When waiting for news, Small Fortune may invite attention to partial updates, small confirmations, or signs that the matter is not entirely blocked.",
+        "relationship": "In relationship reflection, Small Fortune may point to goodwill, small gestures, a lighter tone, or a chance to rebuild trust through modest action.",
+        "travel_movement": "For travel or movement, Small Fortune may suggest manageable progress, helpful arrangements, or small conveniences.",
+        "personal_decision": "For a personal decision, Small Fortune may suggest that a modest option, small first step, or practical support deserves attention."
+      },
+      "attentionPoints": [
+        "Whether a small opportunity is being overlooked",
+        "Whether modest progress is already happening",
+        "Whether support is available in a practical form",
+        "Whether expectations are too large for the current stage",
+        "Whether a small next step would reduce uncertainty",
+        "Whether goodwill or cooperation is present"
+      ],
+      "reflectionQuestions": [
+        "What small sign of progress is present?",
+        "Who or what is offering practical support?",
+        "Am I dismissing something useful because it is not big enough?",
+        "What small next step is available now?",
+        "How can I use a modest opening wisely?",
+        "What would count as meaningful small progress?"
+      ],
+      "avoidLanguage": ["You will have great luck.", "Everything will go your way.", "This guarantees success.", "A major opportunity is coming."]
+    },
+    {
+      "id": "kong_wang",
+      "chinese": "空亡",
+      "pinyin": "Kong Wang",
+      "english": "Emptiness",
+      "keywords": ["absence", "uncertainty", "missing information", "delay", "not yet formed", "silence", "assumption", "space"],
+      "themes": {
+        "short": "uncertainty and missing information",
+        "process": "uncertainty"
+      },
+      "basicMeaning": "Emptiness is traditionally associated with absence, uncertainty, missing information, delay, or something not yet fully formed. It can feel uncomfortable because it points to what is not visible, not confirmed, or not ready. In a reflective reading, Emptiness does not simply mean that something is bad or hopeless. It asks the user to notice what is unclear, what has not arrived, and where assumptions may be filling the space left by missing facts.",
+      "positiveReading": "Emptiness can be useful because it creates space for clearer seeing. When something is not yet formed, the user may have time to pause, gather information, and avoid building decisions on incomplete evidence.",
+      "caution": "The caution of Emptiness is anxiety projection. When information is missing, the mind may turn silence into a definite answer or imagine the worst.",
+      "positions": {
+        "month": "As the Month Palace, Emptiness suggests that the background of the matter may be unclear, incomplete, or not fully formed.",
+        "day": "As the Day Palace, Emptiness suggests that current movement may feel uncertain, paused, or difficult to read.",
+        "hour": "As the Hour Palace, Emptiness highlights missing information, silence, or uncertainty as the immediate focus.",
+        "final": "As the Final Palace, Emptiness emphasizes uncertainty, missing information, and the need to avoid premature conclusions."
+      },
+      "contexts": {
+        "general_reflection": "In general reflection, Emptiness invites attention to what is missing, unclear, or not yet formed.",
+        "work_study": "In work or study, Emptiness may point to missing instructions, unclear expectations, absent feedback, or a plan that is not fully formed.",
+        "waiting_for_news": "When waiting for news, Emptiness invites attention to silence, missing details, or uncertainty around the response.",
+        "relationship": "In relationship reflection, Emptiness may point to silence, emotional distance, unspoken concerns, or assumptions about another person.",
+        "travel_movement": "For travel or movement, Emptiness may invite attention to missing confirmations, unclear timing, incomplete plans, or gaps in information.",
+        "personal_decision": "For a personal decision, Emptiness may suggest that the user does not yet have enough information to choose confidently."
+      },
+      "attentionPoints": [
+        "Whether important information is still missing",
+        "Whether silence is being overinterpreted",
+        "Whether the matter is too early to judge",
+        "Whether assumptions are filling gaps in the facts",
+        "Whether a pause could prevent unnecessary pressure",
+        "Whether more clarification is needed"
+      ],
+      "reflectionQuestions": [
+        "What information do I still not have?",
+        "Am I treating uncertainty as a definite answer?",
+        "What part of this situation is based on fact?",
+        "What part is based on imagination or fear?",
+        "What would make this matter clearer?",
+        "What should not be decided yet?"
+      ],
+      "avoidLanguage": ["This is hopeless.", "No answer will come.", "The silence proves the worst.", "Nothing exists here."]
+    }
+  ]
+}

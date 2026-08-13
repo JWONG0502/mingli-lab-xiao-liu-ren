@@ -1,0 +1,123 @@
+{
+  "version": "1.0",
+  "language": "en",
+  "app": {
+    "name": "Xiao Liu Ren Lab",
+    "positioning": "A calm learning tool for understanding Xiao Liu Ren, a classical Chinese symbolic method.",
+    "principle": "The tool explains symbolic meanings. The user makes their own judgment."
+  },
+  "nav": {
+    "home": "Home",
+    "startHere": "Start Here",
+    "tool": "Tool",
+    "sixPalaces": "Six Palaces",
+    "learn": "Learn",
+    "method": "Method",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy"
+  },
+  "home": {
+    "headline": "Explore Xiao Liu Ren through symbolic meanings and reflective questions.",
+    "supportingCopy": "A calm learning tool for understanding Xiao Liu Ren, a classical Chinese symbolic method.",
+    "primaryCta": "Try the Tool",
+    "secondaryCta": "Start Learning",
+    "boundary": "For cultural learning and personal reflection, not deterministic fortune-telling.",
+    "guideTitle": "Download the Beginner Guide",
+    "guideNote": "The guide is hosted on an external download page. No email is required."
+  },
+  "startHere": {
+    "title": "Start Here",
+    "boundary": "This tool does not make decisions for you. It presents traditional symbolic meanings and reflection prompts so you can consider the situation yourself.",
+    "notFor": "Do not use this tool for medical, legal, financial, emergency, gambling, or pregnancy decisions.",
+    "cta": "Try the Tool"
+  },
+  "tool": {
+    "title": "Cast a Reflection",
+    "intro": "Choose a context, time, and time zone. The topic is optional and stays local.",
+    "reflectionContext": "Reflection Context",
+    "reflectionTopic": "Reflection Topic",
+    "reflectionTopicPlaceholder": "Optional: What are you reflecting on?",
+    "reflectionTopicNote": "Optional. This stays on this page and is not included in analytics or sharing.",
+    "timeZoneNote": "This tool uses your local time zone by default. You can change it if you want to cast the reading for another location.",
+    "timeZoneHelp": "For personal reflection, use the time zone where you are when asking the question. For a matter tied to a specific place, you may choose the time zone of that place.",
+    "castCta": "Cast Reflection"
+  },
+  "contexts": {
+    "general_reflection": {
+      "label": "General Reflection",
+      "description": "Open reflection"
+    },
+    "work_study": {
+      "label": "Work / Study",
+      "description": "Tasks and learning"
+    },
+    "waiting_for_news": {
+      "label": "Waiting for News",
+      "description": "Response or missing detail"
+    },
+    "relationship": {
+      "label": "Relationship",
+      "description": "Communication"
+    },
+    "travel_movement": {
+      "label": "Travel / Movement",
+      "description": "Plans and timing"
+    },
+    "personal_decision": {
+      "label": "Personal Decision",
+      "description": "Careful choice"
+    }
+  },
+  "casting": {
+    "countingMonth": "Counting lunar month…",
+    "countingDay": "Counting lunar day…",
+    "countingHour": "Counting Chinese hour…",
+    "finalReached": "Final palace reached",
+    "skip": "Skip animation",
+    "monthPalace": "Month Palace",
+    "dayPalace": "Day Palace",
+    "hourPalace": "Hour Palace",
+    "finalPalace": "Final Palace",
+    "reducedMotion": "Motion is reduced. Showing the static calculation steps."
+  },
+  "result": {
+    "finalResult": "Final Result",
+    "process": "Process",
+    "whatThisMaySuggest": "What this may suggest",
+    "finalPalaceMeaning": "Final Palace Meaning",
+    "contextualReflection": "Contextual Reflection",
+    "payAttentionTo": "Pay Attention To",
+    "reflectionQuestions": "Reflection Questions",
+    "howThisWasCast": "How This Was Cast",
+    "learnAboutPalace": "Learn About {palace}",
+    "readSixPalaces": "Read the Six Palaces",
+    "seeFullMethod": "See full method",
+    "disclaimer": "This reading is for cultural learning and personal reflection. It is not medical, legal, financial, or professional advice.",
+    "patternTemplate": "This pattern begins with {monthTheme}, moves through {dayTheme}, and brings attention to {hourTheme}. The final palace emphasizes {finalTheme}."
+  },
+  "method": {
+    "title": "Method Used in This Tool",
+    "intro": "This is a learning tool, not a claim of one true method.",
+    "traditionsNote": "Xiao Liu Ren has multiple casting traditions. This tool currently uses one fixed method for learning consistency: the lunar month-day-hour method. Other teachers or traditions may count differently, use different timing rules, or interpret palace positions in different ways."
+  },
+  "sixPalaces": {
+    "title": "The Six Palaces",
+    "subtitle": "Symbolic states, not lucky or unlucky labels."
+  },
+  "staticPages": {
+    "aboutTitle": "About",
+    "aboutBody": "Xiao Liu Ren Lab is an English-first learning tool for exploring Xiao Liu Ren, a classical Chinese symbolic method.",
+    "contactTitle": "Contact",
+    "contactBody": "Contact email to be configured before launch.",
+    "contactSafety": "Please do not send sensitive personal information, attachments, or links.",
+    "privacyTitle": "Privacy Policy",
+    "privacyBody": "Reflection Topic stays local. No email is required for the Beginner Guide."
+  },
+  "errors": {
+    "timezoneNotDetected": "Time zone not detected. Please choose one manually.",
+    "invalidDateTime": "This local time may not exist. Choose another time.",
+    "lunarConversionFailed": "Please check the selected date and try again.",
+    "backToTool": "Back to Tool"
+  }
+}
