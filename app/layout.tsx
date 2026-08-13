@@ -5,7 +5,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Xiao Liu Ren Lab",
-  description: "A calm learning tool for understanding Xiao Liu Ren through symbolic meanings and reflective questions.",
+  description: "...",
+  verification: {
+    google: "jJl_vysem5ybrg8cNUhe-QkbvT-rqSMrDuZvG7GknRQ",
+  },
 };
 
 const navItems = [
