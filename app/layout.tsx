@@ -52,7 +52,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
                 `,
               }}
             />
-  <script src="https://www.highperformanceformat.com/c639acb7485e8d64bc2264f6019014ae/invoke.js" />
+  <script async src="https://www.highperformanceformat.com/c639acb7485e8d64bc2264f6019014ae/invoke.js" />
 </div>
 
           <footer className="site-footer">
