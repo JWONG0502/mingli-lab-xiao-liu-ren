@@ -1,11 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { copy } from "@/content/copy";
 import { palaces } from "@/content/palaces";
-import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Xiao Liu Ren Lab | Online Xiao Liu Ren Tool and Guide",
-  description: "Use Xiao Liu Ren as a simple reflection tool with six palaces, time-based calculation, and practical interpretation guides.",
+  title: "Six Palaces of Xiao Liu Ren | Meanings and Guide",
+  description:
+    "Learn the six Xiao Liu Ren palaces, including Great Peace, Lingering, Swift Joy, Red Mouth, Small Fortune, and Emptiness.",
 };
 
 export default function SixPalacesPage() {
