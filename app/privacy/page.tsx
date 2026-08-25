@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { copy } from "@/content/copy";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Xiao Liu Ren Lab",
+  description:
+    "Read the Xiao Liu Ren Lab privacy policy, including local calculation, reflection topic handling, analytics, and external services.",
+};
 
 export default function PrivacyPage() {
   return (
