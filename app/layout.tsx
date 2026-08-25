@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -24,6 +25,13 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
   return (
     <html lang="en">
       <body>
+        <Script
+          id="google-adsense"
+          async
+          strategy="beforeInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9318619230731009"
+          crossOrigin="anonymous"
+        />
         <div className="site-shell">
           <header className="site-header">
             <Link className="brand" href="/">
@@ -38,22 +46,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
             </nav>
           </header>
           {children}
-          <div className="ad-slot" aria-label="Advertisement">
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  atOptions = {
-                    'key' : 'c639acb7485e8d64bc2264f6019014ae',
-                    'format' : 'iframe',
-                    'height' : 250,
-                    'width' : 300,
-                    'params' : {}
-                  };
-                `,
-              }}
-            />
-  <script async src="https://www.highperformanceformat.com/c639acb7485e8d64bc2264f6019014ae/invoke.js" />
-</div>
+         
 
           <footer className="site-footer">
             <span>Chinese terms are shown with pinyin to preserve the original system.</span>
