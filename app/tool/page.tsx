@@ -1,9 +1,11 @@
 import ToolClient from "@/components/ToolClient";
 import type { Metadata } from "next";
+import ToolClient from "@/components/ToolClient";
 
 export const metadata: Metadata = {
-  title: "Xiao Liu Ren Lab | Online Xiao Liu Ren Tool and Guide",
-  description: "Use Xiao Liu Ren as a simple reflection tool with six palaces, time-based calculation, and practical interpretation guides.",
+  title: "Xiao Liu Ren Tool | Online Time-Based Reflection Calculator",
+  description:
+    "Use the Xiao Liu Ren tool to calculate a six-palace result from lunar date, Chinese hour, and time zone for personal reflection.",
 };
 
 export default function ToolPage() {
