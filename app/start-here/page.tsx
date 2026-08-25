@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { copy } from "@/content/copy";
+
+export const metadata: Metadata = {
+  title: "Start Here | Xiao Liu Ren Beginner Guide",
+  description:
+    "Start with the basics of Xiao Liu Ren, including reflection boundaries, safe use, and how to approach the tool calmly.",
+};
 
 export default function StartHerePage() {
   return (
