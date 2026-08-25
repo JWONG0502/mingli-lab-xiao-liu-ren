@@ -1,10 +1,11 @@
+import type { Metadata } from "next";
 import { copy } from "@/content/copy";
 import { CHINESE_HOURS } from "@/lib/time/chinese-hour";
-import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Xiao Liu Ren Lab | Online Xiao Liu Ren Tool and Guide",
-  description: "Use Xiao Liu Ren as a simple reflection tool with six palaces, time-based calculation, and practical interpretation guides.",
+  title: "Xiao Liu Ren Method | Formula, Chinese Hours, and Boundaries",
+  description:
+    "Understand the Xiao Liu Ren calculation method, including lunar month, lunar day, Chinese hour, and interpretation boundaries.",
 };
 
 export default function MethodPage() {
