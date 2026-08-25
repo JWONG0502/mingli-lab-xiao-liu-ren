@@ -1,4 +1,3 @@
-import ToolClient from "@/components/ToolClient";
 import type { Metadata } from "next";
 import ToolClient from "@/components/ToolClient";
 
