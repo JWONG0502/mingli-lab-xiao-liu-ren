@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { copy } from "@/content/copy";
+
+export const metadata: Metadata = {
+  title: "About Xiao Liu Ren Lab",
+  description:
+    "Learn what Xiao Liu Ren Lab provides and how the site presents Xiao Liu Ren as cultural learning and reflection.",
+};
 
 export default function AboutPage() {
   return (
