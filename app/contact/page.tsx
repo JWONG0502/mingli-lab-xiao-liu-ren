@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { copy } from "@/content/copy";
+
+export const metadata: Metadata = {
+  title: "Contact | Xiao Liu Ren Lab",
+  description:
+    "Contact Xiao Liu Ren Lab for product questions, content corrections, or website-related feedback.",
+};
 
 export default function ContactPage() {
   return (
