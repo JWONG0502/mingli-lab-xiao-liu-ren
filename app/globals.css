@@ -445,9 +445,4 @@ summary {
     animation-iteration-count: 1 !important;
   }
 }
-.ad-slot {
-  display: flex;
-  justify-content: center;
-  margin: 32px auto;
-  min-height: 250px;
-}
+
