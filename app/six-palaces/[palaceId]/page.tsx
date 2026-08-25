@@ -1,9 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getPalace, palaces } from "@/content/palaces";
 import type { PalaceId } from "@/lib/xiao-liu-ren/types";
 
 export function generateStaticParams() {
   return palaces.map((palace) => ({ palaceId: palace.id }));
+}
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ palaceId: PalaceId }>;
+}): Promise<Metadata> {
+  const { palaceId } = await params;
+  const palace = getPalace(palaceId);
+
+  return {
+    title: `${palace.english} (${palace.pinyin}) | Xiao Liu Ren Palace Meaning`,
+    description: `${palace.english}, ${palace.chinese} ${palace.pinyin}, represents ${palace.themes.short} in Xiao Liu Ren reflection.`,
+  };
 }
 
 export default async function PalaceDetailPage({ params }: { params: Promise<{ palaceId: PalaceId }> }) {
